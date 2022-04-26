@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import MovieCard from './MovieCard';
 import './App.css';
 
-const API_URL = 'http://www.omdbapi.com?apikey=7206fc6';
+// API key hidden from public ---
+const API_URL = 'http://www.omdbapi.com?apikey=*******';
 
 
 const App = () => {
